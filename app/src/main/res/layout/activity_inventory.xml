@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inventory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.prototype.isbi.isbiprototype1.InventoryActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="back_ground_image"
+        android:src="@drawable/bg_1_small"
+        android:scaleType="centerCrop"
+        android:alpha="0.2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDarkTrans"
+        android:id="@+id/main_layout">
+
+        <!-- Heading -->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/inventory_tag"-->
+            <!--android:id="@+id/title"-->
+            <!--android:textSize="@dimen/activity_font_size_headings"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_layout"
+            android:layout_gravity="top"
+            android:layout_alignBottom="@+id/scroll_layout"
+            android:gravity="top"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnBackLayout"
+                android:layout_gravity="center"
+                android:gravity="center">
+            <!-- Exit Button -->
+            <!--<Button-->
+                <!--android:id="@+id/btn_exit"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/btn_back"-->
+                <!--android:textSize="@dimen/activity_font_size_buttons"-->
+                <!--android:textStyle="bold" />-->
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="5dp"
+                    android:text="@string/btn_back"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_font_size_group"
+                    android:background="@color/seeThrough"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnNxtLayout"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <!-- next Button -->
+                <!--<Button-->
+                <!--android:id="@+id/btn_next"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/btn_next"-->
+                <!--android:textSize="@dimen/activity_font_size_buttons"-->
+                <!--android:textStyle="bold" />-->
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/btn_next"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_font_size_group"
+                    android:background="@color/seeThrough"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Expandable List -->
+        <ExpandableListView
+            android:id="@+id/lvExp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:cacheColorHint="#00000000" />
+
+    </LinearLayout>
+
+</RelativeLayout>

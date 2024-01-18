@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="23"
+    android:id="@+id/eight_layout"
+    android:background="@drawable/pop_white">
+
+    <TextView
+        android:id="@+id/lblListItem0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItem7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+    <!--  ?android:attr/expandableListPreferredChildPaddingLeft -->
+</LinearLayout>

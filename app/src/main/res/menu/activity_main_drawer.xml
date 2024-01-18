@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/shop_menu_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/invenotry_menu_icon"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/sale_menu_icon"
+            android:title="Sales" />
+        <item
+            android:id="@+id/nav_purchases"
+            android:icon="@drawable/purchase_menu_icon"
+            android:title="Purchases" />
+        <!--<item-->
+            <!--android:id="@+id/nav_goods_purchased"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Goods Purchased" />-->
+        <item
+            android:id="@+id/nav_payables"
+            android:icon="@drawable/payables_menu_icon"
+            android:title="Payables" />
+        <item
+            android:id="@+id/nav_receivables"
+            android:icon="@drawable/receivable_menu_icon"
+            android:title="Receivables" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/delivery_menu_icon"
+            android:title="Deliveries" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/orders_menu_icon"
+            android:title="Orders" />
+        <!--<item-->
+            <!--android:id="@+id/nav_cash"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Cash Totals" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_paid_payables"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Paid Payables" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_paid_receivables"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Paid Receivables" />-->
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/expense_menu_icon"
+            android:title="Expenses" />
+        <item
+            android:id="@+id/nav_owner"
+            android:icon="@drawable/owner_menu_icon"
+            android:title="Owner Drawings" />
+        <!--<item-->
+            <!--android:id="@+id/nav_pre_order"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Pre Purchase Orders" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_closed_pre_orders"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Closed Pre Purchase Orders" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_goods_pre_ordered"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Goods Pre Purchase Ordered" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_pre_sold"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Pre Sold Order" />-->
+        <item
+            android:id="@+id/nav_asset"
+            android:icon="@drawable/assets_menu_icon"
+            android:title="Assets" />
+        <!--<item-->
+            <!--android:id="@+id/nav_sold_assets"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Sold Assets" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_reup"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Upgrades And Repairs" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_asset_gains"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Gains/Loss on Assets" />-->
+        <item
+            android:id="@+id/nav_loans"
+            android:icon="@drawable/loan_menu_icon"
+            android:title="Loans" />
+        <!--<item-->
+            <!--android:id="@+id/nav_paid_loans"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Paid Loans" />-->
+    </group>
+
+    <item android:title="Statments">
+        <menu>
+            <item
+                android:id="@+id/nav_balance_sheet"
+                android:icon="@drawable/balance_sheet_menu_icon"
+                android:title="Balance Sheet" />
+            <item
+                android:id="@+id/nav_p_and_l"
+                android:icon="@drawable/p_and_l_menu_icon_1"
+                android:title="Profit and Loss" />
+            <item
+                android:id="@+id/nav_cash_flow"
+                android:icon="@drawable/cash_flow_menu_icon"
+                android:title="Cash Flow" />
+        </menu>
+    </item>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/sync_menu_icon"
+                android:title="Sync" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings_menu_icon"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_dell"
+                android:icon="@drawable/settings_menu_icon"
+                android:title="Delete All Data(Test Purposes)" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_menu_icon"
+                android:title="LogOut" />
+        </menu>
+    </item>
+</menu>

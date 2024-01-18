@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">ISBI Retailer BetaV.1</string>
+
+    <!-- Strings related to navigator -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to settings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_sync">Sync</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_id">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to personal details -->
+    <string name="account_details">Account Details</string>\
+    <string name="business_details">Business Details</string>
+    <string name="hint_id">ID/Passport Number</string>
+    <string name="hint_fName">Enter Full Name</string>
+    <string name="hint_uName">Enter User Name(used for login)</string>
+    <string name="hint_email">Enter Email Address</string>
+    <string name="hint_conf_pin">Confirm Pin</string>
+    <string name="hint_pin">Pin</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_next">Next</string>
+    <string name="hint_bName">Enter Business Name</string>
+    <string name="hint_location">Enter Business Location</string>
+
+    <!-- Strings related to cash -->
+    <string name="hint_actual">Cash in Hand</string>
+    <string name="hint_bank">Cash in Bank A/C</string>
+    <string name="hint_mpesa">Cash in MPESA</string>
+
+    <!-- Strings related to add inventory -->
+    <string name="hint_product">Product Name</string>
+    <string name="hint_product_selling">Goods Being Sold</string>
+    <string name="hint_number">Quantity</string>
+    <string name="hint_cost">Cost Each</string>
+    <string name="hint_each">\@</string>
+    <string name="hint_Total">Total</string>
+    <string name="hint_fee">Transaction fee</string>
+    <string name="hint_change">Amount from Customer</string>
+    <string name="hint_changediff">Change</string>
+    <string name="btn_add">Add</string>
+
+    <!--Headings-->
+    <string name="newUser">Personal Details</string>
+    <string name="cash_dist">Cash Distribution</string>
+    <string name="inventory_tag">Inventory</string>
+    <string name="payables_tags">Payables</string>
+    <string name="receivables_tags">Receivables</string>
+    <string name="pre_sale_tag">Pre Order Sales</string>
+    <string name="pre_purchase_tag">Pre Order Purchase</string>
+    <string name="asset_tag">Assets</string>
+    <string name="expenses_tag">Expenses</string>
+    <string name="loan_tag">Loans</string>
+
+    <!--Button Labels-->
+    <string name="btn_submit">Submit</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="btn_sell">Sell</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_move">Move</string>
+    <string name="btn_buy">Purchase</string>
+    <string name="btn_pre_sell">Pre Sell</string>
+    <string name="btn_pre_buy">Pre Purchase</string>
+    <string name="btn_delivery">Deliver</string>
+
+
+    <!--Label for text fields-->
+    <string name="id">ID/PP No;</string>
+    <string name="name">Name;</string>
+
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_customer">Customer</string>
+    <string name="hint_supplier">Supplier</string>
+    <string name="hint_payment">Mode of Payment</string>
+    <string name="hint_money">Money Allocation</string>
+    <string name="hint_allocation">Mode of Allocation</string>
+    <string name="hint_price">Price Per Psc/Kg/L</string>
+    <string name="hint_product_buying">Goods Being Purchased</string>
+    <string name="hint_delivery_cost">Total Cost of Delivery</string>
+
+
+    <string name="date_button_set">Set Date</string>
+    <string name="date_selected"></string>
+    <string name="date_expected">Expected Date of Payment</string>
+    <string name="payable_date">Date of Payable</string>
+    <string name="rec_date">Date of Receivable</string>
+    <string name="date">Date</string>
+    <string name="pre_sale_date">Date of Pre-Sale</string>
+    <string name="pre_purch_date">Date of Pre-Purchase</string>
+    <string name="receipt_date">Receipt Date</string>
+    <string name="acquisition_date">Acquisition Date</string>
+    <string name="date_of_delivery">Expected Date of Delivery</string>
+    <string name="date_of_sale">Actual Date of Sale</string>
+    <string name="date_start">From Date</string>
+    <string name="date_stop">TO Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="sale">Sale</string>
+    <string name="purchase">Purchase</string>
+    <string name="delivery">Delivery</string>
+    <string name="presale">Order Pre-Sale</string>
+    <string name="prepurchase">Order Pre-Purchase</string>
+    <string name="expenses">Expenses</string>
+    <string name="owner">Owner Drawings</string>
+    <string name="asset">Buy Assets</string>
+    <string name="loan">Loans</string>
+    <string name="legend">Legend</string>
+    <string name="cash">Cash</string>
+    <string name="mpesa">M-PESA</string>
+    <string name="bank">Bank A/C</string>
+    <string name="mdsal">MD Salary: </string>
+    <string name="pieTitle">Money Distribution</string>
+    <string name="NoCustomers">No. of Customers</string>
+    <string name="ProductsSold">Products Sold</string>
+    <string name="TotalIncome">Total Income</string>
+
+
+    <!--Label for keyboard-->
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+
+</resources>

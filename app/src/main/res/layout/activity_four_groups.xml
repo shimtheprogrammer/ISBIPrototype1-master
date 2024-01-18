@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap">
+
+    <!-- Group Name -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="@dimen/activity_font_size_group"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:id="@+id/btn_add"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button_add"
+            android:background="@drawable/pop_see_though"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:weightSum="12"
+        android:id="@+id/four_layout_group"
+        android:background="@drawable/shap2">
+
+        <TextView
+            android:id="@+id/GrouplblListItem1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/activity_font_size_item"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/GrouplblListItem2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/activity_font_size_item"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/GrouplblListItem3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/activity_font_size_item"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/GrouplblListItem4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/activity_font_size_item"
+            android:gravity="center"/>
+        <!--  ?android:attr/expandableListPreferredChildPaddingLeft -->
+    </LinearLayout>
+
+</LinearLayout>

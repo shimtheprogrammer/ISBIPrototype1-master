@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/shap">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="back_ground_image"
+        android:src="@drawable/bg_3_small"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/pop_see_though">
+
+        <!-- Expandable List -->
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:cacheColorHint="#00000000"
+            android:background="@drawable/shap4"/>
+
+    </LinearLayout>
+</LinearLayout>

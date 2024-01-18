@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@color/water_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.3sp"
+        android:textColor="@color/white_two"
+        android:gravity="center_horizontal"
+        android:text="CREATE ACCOUNT"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="213.3dp"
+        android:orientation="vertical"
+        android:background="@drawable/reg_form_wrapper_habahaba"
+        android:gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="242.7dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9.3sp"
+                android:textColor="@color/white"
+                android:text="FULL NAME"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@color/holoBlueBright">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:textColorHint="@color/soft_blue"
+                    android:textColor="@color/white"
+                    android:hint="First name, surname, last name"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9.3sp"
+                android:textColor="@color/white"
+                android:text="EMAIL ADDRESS"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@color/holoBlueBright">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:textColorHint="@color/soft_blue"
+                    android:textColor="@color/white"
+                    android:hint="e.g. yourname@gmail.com"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9.3sp"
+                android:textColor="@color/white"
+                android:text="PIN"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@color/holoBlueBright">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:textColorHint="@color/soft_blue"
+                    android:textColor="@color/white"
+                    android:hint="Enter your 4 digit pin"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9.3sp"
+                android:textColor="@color/white"
+                android:text="CONFIRM PIN"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@color/holoBlueBright">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:textColorHint="@color/soft_blue"
+                    android:textColor="@color/white"
+                    android:hint="Confirm your 4 digit pin"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/reg_form_wrapper_habahaba"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+                <TextView
+                    style="@style/Text_Style_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUBMIT DETAILS"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9.3sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textColor="@color/bright_orange"
+                    android:letterSpacing="0.02"
+                    android:gravity="center_horizontal"
+                    android:text="CANCEL"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9.3sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:letterSpacing="0.02"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="   •   "
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9.3sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:letterSpacing="0.02"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="REGISTER"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

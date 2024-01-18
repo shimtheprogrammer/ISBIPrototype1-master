@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="back_ground_image"
+        android:src="@drawable/bg_1_small"
+        android:scaleType="centerCrop"
+        android:alpha="0.2"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorPrimaryDarkTrans">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:src="@drawable/logo_1"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Email Label -->
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColorHint="@android:color/white"-->
+            <!--app:hintTextAppearance="@dimen/activity_font_size_group">-->
+            <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/email"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/activity_font_size_group"-->
+            <!--android:hint="User Name" />-->
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_gravity="center"-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@android:color/white"
+                app:hintTextAppearance="@dimen/activity_font_size_group">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_font_size_group"
+                    android:hint="User Name">
+                </AutoCompleteTextView>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/address"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/activity_font_size_group"-->
+            <!--android:hint="User Name" />-->
+
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:textColorHint="@android:color/white"
+                app:hintTextAppearance="@dimen/activity_font_size_group">
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_font_size_group"
+                    android:hint="Password"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/btn_submit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/see_through_button"
+                android:padding="12dp"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/activity_font_size_group"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/btn_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="No account yet? Create one"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/activity_font_size_group"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="@color/bright_orange"
+                android:letterSpacing="0.02"
+                android:gravity="center_horizontal"
+                android:text="CANCEL"
+                android:id="@+id/btn_cancel"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

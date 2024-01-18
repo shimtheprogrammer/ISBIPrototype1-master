@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_white"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- Heading -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/receivables_tags"
+            android:id="@+id/textView"
+            android:textSize="@dimen/activity_font_size_headings"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <!-- Exit Button -->
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_back"
+                android:textSize="@dimen/activity_font_size_buttons"
+                android:textStyle="bold" />
+
+            <!-- next Button -->
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_next"
+                android:textSize="@dimen/activity_font_size_buttons"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Expandable List -->
+        <ExpandableListView
+            android:id="@+id/lvExp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:cacheColorHint="#00000000" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

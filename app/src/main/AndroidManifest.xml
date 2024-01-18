@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prototype.isbi.isbiprototype1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayCashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonalDetailsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BuisnessDetailsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".InventoryActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddInventoryActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PayablesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddPayableActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ReceivablesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddReceivableActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AssetRegistrationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SaleActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddSalesActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddPurchaseActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PaymentActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ReceivablesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PayablesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".FloatFourELActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+        <activity
+            android:name=".GoodsPurchasedDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SalesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+        <activity
+            android:name=".PurchasesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".InventoryDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".DeliveryDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".BalanceSheetActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PAndLActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".CashFlowActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PaymentChoiceActivity"
+            android:theme="@style/AppTheme.CustomeTheme" />
+        <activity
+            android:name=".AssetOptionsActivity"
+            android:theme="@style/AppTheme.CustomeTheme" />
+        <activity
+            android:name=".StatmentsDatesActivity"
+            android:theme="@style/AppTheme.CustomeTheme" />
+        <activity
+            android:name=".EditPayableActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Delivery2Activity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PaidPayablesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PaidReceivablesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MixPaymentActivity"
+            android:theme="@style/AppTheme.CustomeThemeNoClose"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ExpensesActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ExpensesDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".OwnerActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".OwnerDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PreOrderDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ClosedPreOrderDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".GoodsPreOrderedDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PreSaleDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".FloatSixELActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+        <activity
+            android:name=".PreOrderActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddPreOrderActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PreSaleActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AddPreSalesActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ClosePreActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark" />
+        <activity
+            android:name=".AssetsDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SoldAssetsDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ReUpDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AssetsActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SoldAssetActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AssetGainsDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".LoansActivity"
+            android:theme="@style/AppTheme.CustomeTheme"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".InstalmentActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark" />
+        <activity
+            android:name=".LoansDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".LoanOptionActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark" />
+        <activity
+            android:name=".InstalmentDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+        <activity
+            android:name=".OrdersDisplayActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".InventoryOptionsActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark" />
+        <activity
+            android:name=".InventoryChangeActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".MoneyTransferActivity"
+            android:theme="@style/AppTheme.CustomeThemeDark"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".LoanRegistrationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".EditSalePriceActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+        <activity
+            android:name=".DeleteActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ExpensesRegistrationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PrePurchaseRegistrationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PreSaleRegistrationActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

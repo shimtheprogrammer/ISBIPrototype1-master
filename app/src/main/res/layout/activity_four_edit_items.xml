@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="12"
+    android:id="@+id/four_layout"
+    android:background="@drawable/pop_white">
+
+    <!--<EditText-->
+        <!--android:id="@+id/dummyEditText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--android:enabled="false"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/lblListItems0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/lblListItems1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/lblListItems2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/activity_font_size_item"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/WidlblListItems3"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="1dp"
+        android:textColorHint="@color/holoBlueBright"
+        android:hint="Sale Price"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/lblListItems3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="@dimen/activity_font_size_item"
+            android:gravity="center"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <!--  ?android:attr/expandableListPreferredChildPaddingLeft -->
+</LinearLayout>
